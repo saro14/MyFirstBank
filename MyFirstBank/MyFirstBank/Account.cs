@@ -15,7 +15,7 @@ namespace MyFirstBank
     {
         #region Statics
         //This is just to maintain last account number
-        //If there is a static keyword, it is general-shared, not for every instance - not part of every account
+        //If there is a static keyword, it is general-shared, not for every instance - not part of every account, class level variable
         private static int lastAccountNumber = 0;
         #endregion
         #region Properties
